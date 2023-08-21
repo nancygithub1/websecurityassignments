@@ -1,0 +1,289 @@
+<body>
+
+    <head>
+        <style>
+            #task1 {
+                border-width: 5px;
+                border-style: dotted;
+                background-color: #82DCA0;
+                width: 30%;
+                color: green;
+            }
+
+            .selected {
+                background-color: rgb(108, 182, 207); 
+            }
+            
+            table {
+                font-family: Arial;
+                border-collapse: collapse;
+            }
+
+            th {
+                border: 2px dotted rgb(74, 79, 79);
+                padding: 8px;
+                background-color: rgb(214, 71, 71);
+                color: rgb(253, 253, 253);
+                text-align: left;
+            }
+            
+            td {
+                border: 2px dotted rgb(74, 79, 79);
+                padding: 8 px;
+                color: rgb(152, 64, 64)
+            }
+
+            tr:nth-child(even) {
+                background-color: rgb(173, 153, 102); 
+                color: rgb(38, 40, 38);
+            }
+
+            tr:nth-child(odd) {
+                background-color: whitesmoke;
+                color: rgb(38, 40, 38); 
+            }
+
+        #task3 {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 800px;
+            border: 5px solid coral;
+        }
+
+        #task3 td {
+            padding: 3px;
+            border-color: orange;
+            text-align: left;
+			border: 3px dashed;
+            background-color: lightblue;
+            color: teal;
+			width: 300px
+        }
+
+        #task3 th {
+            font-weight: bold;
+            border-width: 3px;
+            border-color: gainsboro;
+            background-color: lightblue;
+            color: black;
+			border-width: 3px;
+        }
+
+		#task3 th:nth-child(odd),
+		#task3 td:nth-child(even) {
+			width: 600px;
+		}
+    
+		#task3 img {
+			width: 400px;
+            height: 300px;
+		}
+
+
+        </style>
+    </head>
+
+    <!-- Task 1 -->
+    <div>
+        <h1> Task 1 </h1>
+    </div>
+    <div id="task1">
+        <h1> 8484570 Nancy Najjarin </h1>
+        <h2> COMP804: Web Security </h2>
+        <h3> Assignment 1, due 11 pm on Monday 21 August 2023 </h3>
+    </div>
+
+    <!-- Task 2 -->
+    <div>
+        <h1> Task 2 </h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Activity</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>First day to enrol for re-enrolling (continuing students)</td>
+                <td>21 Nov 2022/td>
+            </tr>
+            <tr>
+                <td>Orientation</td>
+                <td>18 July 2023</td>
+            </tr>
+            <tr>
+                <td>Lectures Commence (weekss 1-9)</td>
+                <td>24 July - 22 Sep 2023</td>
+            </tr>
+            <tr>
+                <td>Last day to enrol/add subjects yourself</td>
+                <td>04 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>Last day to enrol/add subjects with Head of Students approval</td>
+                <td>11 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Census Date</h4>
+                    <li>Fees due</li>
+                    <li>Last day to withdraw from subject/s without paying for them</li>
+                    <li> HECS/FEE HELP debt reporting date</li>
+                    <li>Last day to chnge HECS/FEE HELP billing option</li>
+                    <a href="https://uowedu.service-now.com">Learn more about Census date</a>
+                </td>
+                <td>31 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>Student Services and Amenities Fees Due</td>
+                <td>01 Sep 2023</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Task 3 -->
+    <div>
+        <h1>Task 3</h1>
+    </div>
+    
+    <div>
+        <table id="task3">
+            <tr>
+                <th>Name</th>
+                <th>Web Attacks</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>DDOS Attacks</p>
+                    <img src="./images/ddos.png">
+                    <p>Source: wikipedia.org</p>
+                </td>
+                <td>
+                    A denial-of-service (DoS) attack is designed to overwhelm the resources of a system to the point where it is unable to reply to legitimate service requests. A distributed denial-of-service (DDoS) attack is similar in that it also seeks to drain the resources of a system. A DDoS attack is initiated by a vast array of malware-infected host machines controlled by the attacker. 
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>MITM Attacks</p>
+                    <img src="./images/mitm.png">
+                    <p>Source: wikipedia.org</p>
+                </td>
+                <td>
+                    Man-in-the-middle (MITM) types of cyber attacks refer to breaches in cybersecurity that make it possible for an attacker to eavesdrop on the data sent back and forth between two people, networks, or computers. It is called a “man in the middle” attack because the attacker positions themselves in the “middle” or between the two parties trying to communicate. In effect, the attacker is spying on the interaction between the two parties.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Phishing Attacks</p>
+                    <img src="./images/phishing.webp">
+                    <p>Source: cloudflare.com</p>
+                </td>
+                <td>
+                    A phishing attack occurs when a malicious actor sends emails that seem to be coming from trusted, legitimate sources in an attempt to grab sensitive information from the target. Phishing attacks combine social engineering and technology and are so-called because the attacker is, in effect, “fishing” for access to a forbidden area by using the “bait” of a seemingly trustworthy sender. 
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Whale Phishing Attacks</td>
+                <td>
+                    A whale-phishing attack is so-named because it goes after the “big fish” or whales of an organization, which typically include those in the C-suite or others in charge of the organization. These individuals are likely to possess information that can be valuable to attackers, such as proprietary information about the business or its operations. 
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Spear Phishing Attacks</td>
+                <td>
+                    Spear phishing refers to a specific type of targeted phishing attack. The attacker takes the time to research their intended targets and then write messages the target is likely to find personally relevant. These types of attacks are aptly called “spear” phishing because of the way the attacker hones in on one specific target. The message will seem legitimate, which is why it can be difficult to spot a spear-phishing attack.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Ransomware</p>
+                    <img src="./images/ransomware.svg">
+                    <p>Source: wikipedia.org</p>
+                </td>
+                <td>
+                    With Ransomware, the victim’s system is held hostage until they agree to pay a ransom to the attacker. After the payment has been sent, the attacker then provides instructions regarding how the target can regain control of their computer. The name "ransomware” is appropriate because the malware demands a ransom from the victim.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Password Attack</td>
+                <td>
+                    Passwords are the access verification tool of choice for most people, so figuring out a target’s password is an attractive proposition for a hacker. This can be done using a few different methods. Often, people keep copies of their passwords on pieces of paper or sticky notes around or on their desks. An attacker can either find the password themselves or pay someone on the inside to get it for them.  
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>SQL Injection</p>
+                    <img src="./images/sql.jpg">
+                    <p>Source: geeksforgeeks.org</p>
+                </td>
+                <td>
+                    Structured Query Language (SQL) injection is a common method of taking advantage of websites that depend on databases to serve their users. Clients are computers that get information from servers, and an SQL attack uses an SQL query sent from the client to a database on the server. The command is inserted, or “injected”, into a data plane in place of something else that normally goes there, such as a password or login. The server that holds the database then runs the command and the system is penetrated.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>URL Interpretation</td>
+                <td>
+                    With URL interpretation, attackers alter and fabricate certain URL addresses and use them to gain access to the target’s personal and professional data. This kind of attack is also referred to as URL poisoning. The name “URL interpretation” comes from the fact that the attacker knows the order in which a web-page’s URL information needs to be entered. The attacker then “interprets” this syntax, using it to figure out how to get into areas they do not have access to.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>DNS Spoofing</p>
+                    <img src="./images/dns.png">
+                    <p>Source: cloudns.net</p>
+                </td>
+                <td>
+                    With Domain Name System (DNS) spoofing, a hacker alters DNS records to send traffic to a fake or “spoofed” website. Once on the fraudulent site, the victim may enter sensitive information that can be used or sold by the hacker. The hacker may also construct a poor-quality site with derogatory or inflammatory content to make a competitor company look bad.
+                    <a href=https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks>www.fortinet.com</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <!-- Task 4 -->
+    <div>
+        <h1> Task 4 </h1>
+    </div>
+    <div>
+        <p>
+            <button class="btn cat" data-text="Cat is clicked" data-image="./images/cat.png" data-field-text="User clicked cat">Cat</button>
+            <button class="btn dog" data-text="Dog is clicked" data-image="./images/dog.png" data-field-text="User clicked dog">Dog</button>
+            <button class="btn frog" data-text="Frog is clicked" data-image="./images/frog.png" data-field-text="User clicked frog">Frog</button>
+        </p>
+        <input type="text" id="outputText" value="" readonly>
+        <p id="output"></p>
+        <img id="outputImage" src="" alt=""> 
+    </div>
+
+    <script>
+        var buttons = document.querySelectorAll(".btn");
+        var output = document.getElementById("output");
+        var outputText = document.getElementById("outputText");
+        var outputImage = document.getElementById("outputImage");
+        buttons.forEach(function(button) {
+            button.addEventListener("click", function() {
+                buttons.forEach(function(btn) {
+                    btn.classList.remove("selected");
+                });
+                button.classList.add("selected");
+                output.textContent = button.getAttribute("data-text");
+                outputText.value = button.getAttribute("data-field-text");
+                outputImage.src = button.getAttribute("data-image");
+            });
+        });
+
+    </script>
+
+</body>
